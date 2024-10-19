@@ -1,6 +1,5 @@
 import psycopg2
 import json
-from decimal import Decimal
 
 def get_customer_assets_from_db(customer_id):
     try:
