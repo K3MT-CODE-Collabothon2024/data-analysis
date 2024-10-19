@@ -22,8 +22,6 @@ def fetch_stock_data(ticker, interval, period):
     except Exception as e:
         return {"error": str(e)}
 
-import yfinance as yf
-
 def fetch_currency_data(currency_pair, interval, period):
     try:
         currency = yf.Ticker(currency_pair)
